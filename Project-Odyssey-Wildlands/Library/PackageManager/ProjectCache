@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639045284667524291
-    m_Hash: 1394277270
+      ticks: 639097267288676132
+    m_Hash: 2433688803
   m_LockFileStatus:
     m_FilePath: C:/Users/mncoo/Documents/Github/Project-Odyssey-Wildlands/Project-Odyssey-Wildlands/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639045284667689676
-    m_Hash: 996919118
+      ticks: 639097267852832450
+    m_Hash: 3689602929
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/mncoo/Documents/Github/Project-Odyssey-Wildlands/Project-Odyssey-Wildlands/Packages
-m_EditorVersion: 6000.3.4f1 (fdd3b8998ec4)
+m_EditorVersion: 6000.4.0f1 (8cf496087c8f)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@13.0.2
+- packageId: com.unity.2d.animation@14.0.3
   testable: 0
   isDirectDependency: 1
-  version: 13.0.2
+  version: 14.0.3
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.animation@3c53dae92956
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.animation@a6f2f1d22eb5
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -187,16 +187,23 @@ m_ResolvedPackages:
     - 13.0.0
     - 13.0.1
     - 13.0.2
+    - 13.0.3
+    - 13.0.4
     - 14.0.0
     - 14.0.1
     - 14.0.2
+    - 14.0.3
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
+    - 15.0.3
     compatible:
-    - 13.0.2
-    recommended: 13.0.2
+    - 14.0.3
+    recommended: 14.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -207,9 +214,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -217,15 +224,15 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.animation
@@ -258,16 +265,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638990587840330000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@13.0/manual/index.html
+  datePublishedTicks: 639076743473670000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@14.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
+    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
     path: 
   unityLifecycle:
-    version: 13.0.2
+    version: 14.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -278,12 +285,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix chain length in FABRIK and CCD IK
-    Solvers to not exceed the number of connected bones. (DANB-1119)\n- Prevent overlap
-    between label and object field, and ellipsize long names (DANB-1154)\n- Ask whether
-    to save when Editor Theme or Editor Font changes and there are unsaved changes
-    in Sprite Library Editor (DANB-1165)\n- Fix bone drag and drop to preserve skeleton-wide
-    order in Visibility window. (DANB-1120)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Disable \"Delete Selected Labels\" menu
+    when nothing is selected in SpriteLibraryEditor (DANB-1201)\n- Fix SpriteSkin
+    BoundsMode assertion failures. (DANB-1181)\n- Refresh sprite library editor when
+    deleting asset. (DANB-1232)\n- Fix exception occurs when changing SpriteSkin''s
+    bounds mode after deleting bones in play mode. (DANB-1224)\n- Fix SpriteSkin
+    bone bounds update timing. (DANB-1180)\n- Fix sprite disappearing on undo by
+    resetting bone transform index in DeactivateSkinning. (DANB-1238)\n- Fix \"IKGizmos:
+    Mismatching number of solvers\" errors when loading invalid prefabs (UUM-131322,
+    DANB-1254)\n- Fix unused separation line is used in the Context Menu of the Sprite
+    Library Editor Window (DANB-1226)\n- Fix transform index corruption caused by
+    missing dirty flag update after array compaction. (UUM-131697)\n- Reduce memory
+    usage and the workload during SpriteSkin initialization. (UUM-131270)\n- Fix
+    the ? button in the IKManager2D inspector points to an Invalid link. (UUM-131299)\n-
+    Fix the issue that the internal class CullingManager is available in AddComponent.
+    (UUM-131877)\n- Fix the missing documentation link of CCD Solver 2D Component.
+    (UUM-131875)\n- Fix the missing documentation link of Fabrik Solver 2D Component.
+    (UUM-131879)\n- Fix the missing documentation link of Limb Solver 2D Component.
+    (UUM-131891)\n- Do not show Sprite Library Editor''s save confirmation when applying
+    from the Inspector; Editor is reset from disk like when selection changes. (DANB-1090)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -297,23 +317,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3c53dae9295646dd95f73b885ea361caab35fbd4
+  fingerprint: a6f2f1d22eb58f97dd6f3c2155404815c5a2bf26
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 13.0.2
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 14.0.3
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.aseprite@3.0.1
+- packageId: com.unity.2d.aseprite@4.0.1
   testable: 0
   isDirectDependency: 1
-  version: 3.0.1
+  version: 4.0.1
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.aseprite@151b68d46c40
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -345,6 +365,7 @@ m_ResolvedPackages:
     - 1.1.8
     - 1.1.9
     - 1.1.10
+    - 1.1.11
     - 1.2.0
     - 1.2.1
     - 1.2.2
@@ -357,13 +378,17 @@ m_ResolvedPackages:
     - 3.0.0
     - 3.0.1
     - 4.0.0
+    - 4.0.1
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
     compatible:
-    - 3.0.1
-    recommended: 3.0.1
+    - 4.0.1
+    recommended: 4.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -374,9 +399,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -384,15 +409,15 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.animation
@@ -434,16 +459,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956665229940000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@3.0/manual/index.html
+  datePublishedTicks: 639076743489250000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@4.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
+    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
     path: 
   unityLifecycle:
-    version: 3.0.1
+    version: 4.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -454,8 +479,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Switched the internals from using custom
-    common package, to make use of the 2D Common package."}'
+  upmReserved: '{"changelog":"### Fixed\n- Reduced the size of the buttons in the
+    Export asset window. (UUM-132863)\n- Fixed an issue where the editor would display
+    errors when reverting changes to the Import Mode in the inspector. (UUM-132892)\n-
+    Fixed an issue where changes to the Pivot Alignment in the inspector could not
+    be reverted. (UUM-132868)\n- Fixed an issue where new lines and white spaces
+    would create unusable animation events. (UUM-133339)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -469,23 +498,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 809e3a168ff77eff802b4b24c10cf6254618245a
+  fingerprint: 151b68d46c4040639cc917c030eec74270029275
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.1
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 4.0.1
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.psdimporter@12.0.1
+- packageId: com.unity.2d.psdimporter@13.0.2
   testable: 0
   isDirectDependency: 1
-  version: 12.0.1
+  version: 13.0.2
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.psdimporter@11a0e04e0561
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -596,22 +625,26 @@ m_ResolvedPackages:
     - 12.0.1
     - 13.0.0
     - 13.0.1
+    - 13.0.2
+    - 14.0.0
+    - 14.0.1
+    - 14.0.2
     compatible:
-    - 12.0.1
-    recommended: 12.0.1
+    - 13.0.2
+    recommended: 13.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -619,15 +652,15 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.animation
@@ -667,16 +700,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638990587854760000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@12.0/manual/index.html
+  datePublishedTicks: 639076743518490000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
+    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
     path: 
   unityLifecycle:
-    version: 12.0.1
+    version: 13.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -687,9 +720,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Exclude empty layers from import.\n\n###
-    Fixed\n- Fix null reference exception occurs when importing psd without visible
-    layers. (DANB-1155)\n- Correct layer mask position relative to its layer. (DANB-1177)"}'
+  upmReserved: '{"changelog":"### Changed\n- Remove the analytics features in 2D
+    Animation and PSDImporter"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -703,11 +735,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 9abe0f7cac7effda42d93c33a6c35134cca1bee3
+  fingerprint: 11a0e04e0561e872deef54a772d616a87d9a30bd
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.1
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 13.0.2
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
@@ -719,7 +751,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.sprite@929df5adbb1f
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -794,7 +826,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 82f01c8c75ca2d707990e8dc249b71ab7d1aa33e
+  fingerprint: 929df5adbb1fa0f2e55b55a7cfb69bde65a57b7d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -805,12 +837,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.spriteshape@13.0.0
+- packageId: com.unity.2d.spriteshape@14.0.1
   testable: 0
   isDirectDependency: 1
-  version: 13.0.0
+  version: 14.0.1
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.spriteshape@da3647ffbbd7
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -926,22 +958,26 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     - 14.0.0
+    - 14.0.1
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
     compatible:
-    - 13.0.0
-    recommended: 13.0.0
+    - 14.0.1
+    recommended: 14.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.0
+    version: 13.0.1
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.1
+    version: 13.0.1
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -949,15 +985,15 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.animation
@@ -996,16 +1032,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638895774099940000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@13.0/manual/index.html
+  datePublishedTicks: 639076743508240000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@14.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1ef60d478f22a420064f300ba7c3b3d6d3536dc3
+    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
     path: 
   unityLifecycle:
-    version: 13.0.0
+    version: 14.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1016,11 +1052,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n- Updated
-    Spriteshape extras to use new InputSystem.\n\n### Fixed\n- UUM-108688 Fix Sprite
-    Shape Profile Asset icon which was low quality and blurry in Project window\n-
-    Use EditorUtility.EntityIdToObject instead of EditorUtility.InstanceIDToObject
-    which is deprecated. (DANB-1042)"}'
+  upmReserved: '{"changelog":"### Changed\n - Replace Entityid from InstanceID to
+    eliminate implicit cast (DANB-1206)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1034,11 +1067,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0738bab116473980325be8cdb7c3c42ab6961778
+  fingerprint: da3647ffbbd720e49fdad337105d014d0ef7ac3e
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 13.0.0
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 14.0.1
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
@@ -1050,7 +1083,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.tilemap@d1f73c185ae9
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.tilemap@533f309b6f37
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1144,7 +1177,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: d1f73c185ae909693707c01ed72dbf111201ee39
+  fingerprint: 533f309b6f37f8b69536c011128ccae960647834
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1155,12 +1188,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.tilemap.extras@6.0.1
+- packageId: com.unity.2d.tilemap.extras@7.0.1
   testable: 0
   isDirectDependency: 1
-  version: 6.0.1
+  version: 7.0.1
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.tilemap.extras@66df903b3633
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1237,10 +1270,17 @@ m_ResolvedPackages:
     - 6.0.1
     - 7.0.0-exp.1
     - 7.0.0
+    - 7.0.1
     - 8.0.0-exp.1
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.88.0-exp.1
     compatible:
-    - 6.0.1
-    recommended: 6.0.1
+    - 7.0.1
+    - 8.0.0-exp.1
+    - 8.88.0-exp.1
+    recommended: 7.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.tilemap
@@ -1285,16 +1325,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956665244800000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@6.0/manual/index.html
+  datePublishedTicks: 639076743436390000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
+    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
     path: 
   unityLifecycle:
-    version: 6.0.1
+    version: 7.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1305,13 +1345,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- [AutoTile] Add Has Physics Shape property
-    if Collider Type is set to Sprite. AutoTile will set Collider Type to Sprite
-    if the Sprite has physics shape and set Collider Type to None if the Sprite has
-    no physics shape.\n\n### Fixed\n- [RuleTileEditor] Fix exception thrown when
-    a Rule is added to an empty RuleTile, removed and added again.\n- [AutoTileEditor]
-    Fix minimum texture scale size when texture is smaller than 256 pixels\n- [AutoTileEditor]
-    Fix texture display when texture is removed from AutoTile"}'
+  upmReserved: '{"changelog":"### Fixed\n- Replace Entityid from InstanceID to eliminate
+    implicit cast (DANB-1206)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1325,23 +1360,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3dde84bf38677b4165ad5f568b353d4ba942d63c
+  fingerprint: 66df903b36331a8612aa7ab7f78c80f5d5de086a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 6.0.1
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 7.0.1
+    minimumUnityVersion: 6000.4.0a1
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.11.2
+- packageId: com.unity.collab-proxy@2.11.4
   testable: 0
   isDirectDependency: 1
-  version: 2.11.2
+  version: 2.11.4
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1443,9 +1478,13 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     - 2.11.2
+    - 2.11.3
+    - 2.11.4
+    - 2.12.4
     compatible:
-    - 2.11.2
-    recommended: 2.11.2
+    - 2.11.4
+    - 2.12.4
+    recommended: 2.11.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -1480,16 +1519,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639017585858420000
+  datePublishedTicks: 639076172810380000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 18be9b54f13042779a9f61840ba6435a75a27fc6
+    revision: 164a710206077e1184a134f18801dae560fdf28a
     path: 
   unityLifecycle:
-    version: 2.11.2
+    version: 2.11.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1500,23 +1539,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added a cset by cset diff panel in the
-    branches view\n- Added specific empty states for Pending/Incoming Changes with
-    filters\n- Added empty state in the history view\n- Added branch name(s) to the
-    branch deletion dialog\n- Added a properties panel for the selected changeset/shelveset\n\n###
-    Changed\n\n- Renamed toolbar dropdown to comply with a 120px max width limit
-    in 6.5\n- Displayed progress indicator overlaying the view\n- Implemented a \"clever\"
-    truncation of paths\n- Redesigned the changesets view\n- Redesigned the branches
-    view\n- Redesigned the locks view\n- Redesigned the shelves view\n- Redesigned
-    the history view\n- Redesigned the labels view\n- Redesigned dialogs\n- Redesigned
-    the main panel to include a top breadcrumb\n- Moved incoming and shelves notifications
-    to the top bar\n- Updated deleted and moved overlay icons\n- Showed real indeterminate
-    progress bar\n\n### Fixed\n\n- Fixed Editor freezes/hangs on \"Reloading Domain\"
-    when entering Play Mode\n- Fixed Version control icon disappearing when opening
-    a scene or switching Play Mode\n- Fixed Project Settings window moving to background
-    when enabling or disabling Unity VCS in the Unity Version Control Settings\n-
-    Fixed the delete shortcut not working on macOS\n- Fixed the menu references to
-    Explorer instead of Finder when running on macOS"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed deprecated instanceID API usages
+    for Unity 6.5."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1530,10 +1554,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1ec4e416a4af080c4db88ec03f1b37b1195b1761
+  fingerprint: a5329f833fa805a96ac8b0a1eb09dc64c076b032
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.11.2
+    minimumPackageVersion: 2.11.4
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -1541,12 +1565,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.38
+- packageId: com.unity.ide.rider@3.0.39
   testable: 0
   isDirectDependency: 1
-  version: 3.0.38
+  version: 3.0.39
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1610,9 +1634,10 @@ m_ResolvedPackages:
     - 3.0.36
     - 3.0.37
     - 3.0.38
+    - 3.0.39
     compatible:
-    - 3.0.38
-    recommended: 3.0.38
+    - 3.0.39
+    recommended: 3.0.39
     deprecated:
     - 3.0.37
   dependencies:
@@ -1637,16 +1662,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638938045127600000
+  datePublishedTicks: 639045875071620000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
+    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.39
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1657,8 +1682,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
-    are not added in the project."}'
+  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
+    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1672,10 +1697,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
+  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
+    minimumPackageVersion: 3.0.39
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1683,12 +1708,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.26
+- packageId: com.unity.ide.visualstudio@2.0.27
   testable: 0
   isDirectDependency: 1
-  version: 2.0.26
+  version: 2.0.27
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1731,9 +1756,10 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     - 2.0.26
+    - 2.0.27
     compatible:
-    - 2.0.26
-    recommended: 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -1763,16 +1789,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639014773899080000
+  datePublishedTicks: 639057939089480000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
+    revision: 4b2a3082a6e79faf658e8d766c820083b736eed6
     path: 
   unityLifecycle:
-    version: 2.0.26
+    version: 2.0.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1783,9 +1809,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
-    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
-    capability when generating SDK-Style project."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix Visual Studio Integration to
+    properly wait for the solution to be opened.\n\nProject generation:\n\n- Disable
+    Workspace-based development feature in `settings.json`.\n- Ensure that we only
+    have one `sln` or `slnx` file at a time.\n- Properly handle filenames with special
+    characters in `link` tags."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1799,10 +1827,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
+  fingerprint: dc1ddd4f09b68a99b5dc00185f3b7551294e28a7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.26
+    minimumPackageVersion: 2.0.27
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1810,12 +1838,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.inputsystem@1.17.0
+- packageId: com.unity.inputsystem@1.19.0
   testable: 0
   isDirectDependency: 1
-  version: 1.17.0
+  version: 1.19.0
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.inputsystem@02433b2481ab
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1891,10 +1919,10 @@ m_ResolvedPackages:
     - 1.16.0
     - 1.17.0
     - 1.18.0
+    - 1.19.0
     compatible:
-    - 1.17.0
-    - 1.18.0
-    recommended: 1.17.0
+    - 1.19.0
+    recommended: 1.19.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -1936,16 +1964,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638997348789550000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html
+  datePublishedTicks: 639075089033030000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.19/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 672e42ce4f76a7086fb09e24d5236e5f71336bd6
+    revision: ca8d898356596a91bda6505e506cc1a4bb3a9fa6
     path: 
   unityLifecycle:
-    version: 1.17.0
+    version: 1.19.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1956,19 +1984,20 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Project-Wide Input Actions support can
-    no longer be compiled out (removed the `UNITY_INPUT_SYSTEM_PROJECT_WIDE_ACTIONS`
-    define). (ISX-2397)\n- Removed code that had to do with Unity versions older
-    than Unity 2022.3 LTS. (ISX-2396)\n- Auto-save on focus lost can no longer be
-    compiled out (ISX-2397)\n- Deprecated the `USE_IMGUI_EDITOR_FOR_ASSETS` feature
-    option (ISX-2397)\n\n### Fixed\n- An issue where a UITK MouseEvent was triggered
-    when changing from Scene View to Game View in the Editor has been fixed. [ISXB-1671](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1671)\n-
-    Fix documentation error in file AndroidGameController.cs mentioning a wrong controller.
-    [DOCATT-9806]\n- Deferred auto-registration of processors, interactions and composite
-    binding types referenced by `InputActionAsset`\n  to only happen once when an
-    unresolved type reference is found in an action definition. This avoids reflective\n 
-    type loading from assemblies for all cases where the Input System is not extended.
-    (ISXB-1766)."}'
+  upmReserved: '{"changelog":"### Changed\n\n- Reverted the deprecation of the USE_IMGUI_EDITOR_FOR_ASSETS
+    feature option (ISX-2397).\n- Updated `m_ActionAssetInstanceID` in PlayerInputEditor.cs
+    to use `EntityId` instead of `InstanceID`.\n- Consecutive wildcard characters
+    (''*'') used in input control-paths are now collapsed into a single wildcard
+    when multiple consecutive wildcard characters are present.\n\n### Fixed\n\n-
+    Fixed the `Auto-Save` toggle button with some extra pixels to align the text
+    in the window better.\n- Align title font size with toolbar style in `Input Action`
+    window.\n- Updated Action Properties headers to use colors consistent with GameObject
+    component headers.\n- Fixed misaligned Virtual Cursor when changing resolution
+    [ISXB-1119](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1119)\n-
+    Fixed an issue where `IndexOutOfRangeException` was thrown from `InputManagerStateMonitors.AddStateChangeMonitor`
+    when attempting to enable an action map from within an `InputAction.cancel` callback
+    when using control schemes. (ISXB-1767).\n\n### Added\n\n- Added `keywords` for
+    InputSystem project settings window."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1982,10 +2011,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 02433b2481abc5c0063956fdc211f3d8c777447f
+  fingerprint: 21a28c3a6c83903a93cf15d7d0714b773c50fdf6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.17.0
+    minimumPackageVersion: 1.19.0
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -2100,12 +2129,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.render-pipelines.universal@17.3.0
+- packageId: com.unity.render-pipelines.universal@17.4.0
   testable: 0
   isDirectDependency: 1
-  version: 17.3.0
+  version: 17.4.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.universal@d10049dfa479
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.universal@0c5162adfb45
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2122,23 +2151,23 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.3.0
+    - 17.4.0
     compatible:
-    - 17.3.0
-    recommended: 17.3.0
+    - 17.4.0
+    recommended: 17.4.0
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.shadergraph
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.render-pipelines.universal-config
-    version: 17.0.3
+    version: 17.4.0
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -2150,25 +2179,23 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.searcher
     version: 4.9.4
   - name: com.unity.render-pipelines.universal-config
-    version: 17.0.3
+    version: 17.4.0
   keywords:
   - graphics
   - performance
@@ -2200,7 +2227,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.3.0
+    version: 17.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2225,11 +2252,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: d10049dfa47938849dbc2893bf682efe4fe4cd18
+  fingerprint: 0c5162adfb454eb02024d6ff58e723b5d990cdd5
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.3.0
-    minimumUnityVersion: 6000.3
+    minimumPackageVersion: 17.4.0
+    minimumUnityVersion: 6000.4
   compliance:
     status: 0
     violation:
@@ -2241,7 +2268,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.test-framework@629486125cfc
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2326,7 +2353,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0b7a23ab2e1d74441a5afdffa63f417929756957
+  fingerprint: 629486125cfc5c2ac0333cc42b9687f02a23b75f
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.6.0
@@ -2337,12 +2364,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.10
+- packageId: com.unity.timeline@1.8.11
   testable: 0
   isDirectDependency: 1
-  version: 1.8.10
+  version: 1.8.11
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.timeline@bfd27f8016ff
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2447,9 +2474,12 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
+    - 1.8.12
     compatible:
-    - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    - 1.8.12
+    recommended: 1.8.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -2490,16 +2520,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639010941520280000
+  datePublishedTicks: 639076501551120000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: a83681b24217526a0f539d70ddca4abf270a5ada
+    revision: cdac322c9875133dd1579842f73adb7f463c6d0b
     path: 
   unityLifecycle:
-    version: 1.8.10
+    version: 1.8.11
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2510,10 +2540,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix compilation error for version 2023.2
-    of the editor (TB-352)\n- Fixed an issue where it was possible for 2 clips to
-    have a micro overlap that was not detected as a blend, resulting in both clips
-    playing at the same time with a weight of one. (TB-345)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix performance regression in Custom
+    Clip PlayableAsset Inspector where animated parameters caused Timeline Window
+    to refresh when scrubbing or playing the Timeline (UUM-133569)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -2527,10 +2556,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 7f8b2fb101b6053cc7472330401e94ff0c17b204
+  fingerprint: bfd27f8016ffda6a22579ffc468432a96b2cc5b6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.10
+    minimumPackageVersion: 1.8.11
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -2543,7 +2572,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ugui@1890c14c96ff
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ugui@3dd2fbd8c1f1
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -2634,7 +2663,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1890c14c96ff76161b5301b2798bcfba3176042a
+  fingerprint: 3dd2fbd8c1f13d2a862db8de94ead6f625454959
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -2645,12 +2674,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.9
+- packageId: com.unity.visualscripting@1.9.10
   testable: 0
   isDirectDependency: 1
-  version: 1.9.9
+  version: 1.9.10
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.visualscripting@eb6004dcc707
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2701,9 +2730,12 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
+    - 1.9.11
     compatible:
-    - 1.9.9
-    recommended: 1.9.9
+    - 1.9.10
+    - 1.9.11
+    recommended: 1.9.11
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -2736,16 +2768,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638965671307960000
+  datePublishedTicks: 639074549415510000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
+    revision: 769bd2a46b6624d2f0f3d229d5885a57b3c4960e
     path: 
   unityLifecycle:
-    version: 1.9.9
+    version: 1.9.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2756,9 +2788,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
-    API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
-    to increase accessibility for screen readers."}'
+  upmReserved: '{"changelog":"### Changed\n- Replaced internal use of InstanceIDs
+    with the new EntityId (Unity 6.4+).\n- Migrate Mono APIs to CoreCLR-compatible
+    APIs available in Unity 6000.5 and above.\n### Fixed\n- Fixed loading icon showing
+    on the Visual Scripting components in the inspector during play mode when the
+    editor is compiling."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -2772,10 +2806,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
+  fingerprint: eb6004dcc7073b805dbf1ea9006b7a915978a186
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.9
+    minimumPackageVersion: 1.9.10
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -2788,7 +2822,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2876,7 +2910,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.adaptiveperformance
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -2970,7 +3004,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3058,7 +3092,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3145,7 +3179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3233,7 +3267,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3321,7 +3355,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3409,7 +3443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3501,7 +3535,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3597,7 +3631,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3685,7 +3719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3773,7 +3807,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3861,7 +3895,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3949,7 +3983,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4037,7 +4071,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4125,7 +4159,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4217,7 +4251,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4305,7 +4339,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4401,7 +4435,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4492,7 +4526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4580,7 +4614,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4688,7 +4722,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4776,7 +4810,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4871,7 +4905,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4959,7 +4993,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -5055,7 +5089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -5151,7 +5185,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5247,7 +5281,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5359,7 +5393,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vectorgraphics
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5466,7 +5500,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5558,7 +5592,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5658,7 +5692,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5761,7 +5795,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5849,7 +5883,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5949,7 +5983,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -6041,7 +6075,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -6215,12 +6249,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.render-pipelines.core@17.3.0
+- packageId: com.unity.render-pipelines.core@17.4.0
   testable: 0
   isDirectDependency: 0
-  version: 17.3.0
+  version: 17.4.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.core@40aabbb0fdcf
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.core@6a60abc179f8
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6240,10 +6274,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.3.0
+    - 17.4.0
     compatible:
-    - 17.3.0
-    recommended: 17.3.0
+    - 17.4.0
+    recommended: 17.4.0
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6254,15 +6288,13 @@ m_ResolvedPackages:
     version: 2.0.0
   - name: com.unity.collections
     version: 2.4.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6274,17 +6306,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   keywords: []
@@ -6312,7 +6342,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.3.0
+    version: 17.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6337,23 +6367,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 40aabbb0fdcf109a8cd485682a43dafbd6dccaea
+  fingerprint: 6a60abc179f81e8343469e07298d2b2a87d180e4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.3.0
-    minimumUnityVersion: 6000.3
+    minimumPackageVersion: 17.4.0
+    minimumUnityVersion: 6000.4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.shadergraph@17.3.0
+- packageId: com.unity.shadergraph@17.4.0
   testable: 0
   isDirectDependency: 0
-  version: 17.3.0
+  version: 17.4.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.shadergraph@3686fafd4720
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.shadergraph@c6e5f4d3afa5
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6371,21 +6401,21 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.3.0
+    - 17.4.0
     compatible:
-    - 17.3.0
-    recommended: 17.3.0
+    - 17.4.0
+    recommended: 17.4.0
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.searcher
     version: 4.9.3
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6397,17 +6427,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.searcher
@@ -6437,7 +6465,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.3.0
+    version: 17.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6462,23 +6490,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3686fafd4720ace82369ef95f8845ee32097b233
+  fingerprint: c6e5f4d3afa5df8b58b7df0a279b469372e707eb
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.3.0
-    minimumUnityVersion: 6000.3
+    minimumPackageVersion: 17.4.0
+    minimumUnityVersion: 6000.4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.render-pipelines.universal-config@17.0.3
+- packageId: com.unity.render-pipelines.universal-config@17.4.0
   testable: 0
   isDirectDependency: 0
-  version: 17.0.3
+  version: 17.4.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.render-pipelines.universal-config@0db4263b9e6b
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -6492,19 +6520,19 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.0.3
+    - 17.4.0
     compatible:
-    - 17.0.3
-    recommended: 17.0.3
+    - 17.4.0
+    recommended: 17.4.0
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.0.3
+    version: 17.4.0
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.3.0
+    version: 17.4.0
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6516,17 +6544,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   keywords: []
@@ -6554,7 +6580,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.0.3
+    version: 17.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6579,23 +6605,23 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
+  fingerprint: 0db4263b9e6bf7bab5fa0de676e2dc8228fd457d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0
+    minimumPackageVersion: 17.4.0
+    minimumUnityVersion: 6000.4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.common@12.0.1
+- packageId: com.unity.2d.common@13.0.1
   testable: 0
   isDirectDependency: 0
-  version: 12.0.1
+  version: 13.0.1
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.common@51e9484895c4
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.common@49d8bea2bff3
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6680,11 +6706,13 @@ m_ResolvedPackages:
     - 11.0.1
     - 12.0.0
     - 12.0.1
+    - 12.0.2
     - 13.0.0
     - 13.0.1
+    - 14.0.0
     compatible:
-    - 12.0.1
-    recommended: 12.0.1
+    - 13.0.1
+    recommended: 13.0.1
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6703,7 +6731,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6711,15 +6739,15 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.2
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.animation
@@ -6751,16 +6779,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956665186900000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@12.0/manual/index.html
+  datePublishedTicks: 638989665960540000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
+    revision: 69096ec8a10aa102448b07d1bfd3cbfa319ee313
     path: 
   unityLifecycle:
-    version: 12.0.1
+    version: 13.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6771,8 +6799,9 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added internal access for the Aseprite
-    Importer.\n- Added retrieving of texture storage size."}'
+  upmReserved: '{"changelog":"### Fixed\n- Added code support to fix warnings of
+    \"a shader without GPU deformation support\" occurs when switching from CPU to
+    GPU Skinning with a PSB skinned sprite (DANB-1079)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -6786,11 +6815,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 51e9484895c4b91b39650e3ee34a014a63860080
+  fingerprint: 49d8bea2bff38bcb90716a3a68cef631b6087562
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.1
-    minimumUnityVersion: 6000.3.0a1
+    minimumPackageVersion: 13.0.1
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
@@ -6908,12 +6937,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collections@2.6.2
+- packageId: com.unity.collections@6.4.0
   testable: 0
   isDirectDependency: 0
-  version: 2.6.2
-  source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  version: 6.4.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.collections@538ace9075bc
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6928,118 +6957,37 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    - 1.2.3-pre.1
-    - 1.2.3
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 1.5.2
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
-    - 2.4.0-pre.2
-    - 2.4.0-pre.5
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.4.3
-    - 2.5.0-exp.1
-    - 2.5.0-pre.2
-    - 2.5.1
-    - 2.5.2
-    - 2.5.3
-    - 2.5.7
-    - 2.6.0-exp.2
-    - 2.6.0-pre.3
-    - 2.6.0-pre.4
-    - 2.6.2
-    - 2.6.3
-    - 2.6.4
+    - 6.4.0
     compatible:
-    - 2.6.2
-    - 2.6.3
-    - 2.6.4
-    recommended: 2.6.4
+    - 6.4.0
+    recommended: 6.4.0
     deprecated: []
   dependencies:
   - name: com.unity.burst
     version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
-  - name: com.unity.test-framework
-    version: 1.4.6
   - name: com.unity.nuget.mono-cecil
     version: 1.11.5
+  - name: com.unity.test-framework
+    version: 1.4.6
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.27
+    version: 1.8.28
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   keywords:
@@ -7059,18 +7007,18 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638950336031850000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.6/manual/index.html
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 34a49c9a68f70872c0a108dbef6cdea306d6b593
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 2.6.2
+    version: 6.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7081,14 +7029,13 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n\n* Updated Burst dependency to version
-    1.8.23."}'
+  upmReserved: 
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 0
+    reason: 
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
@@ -7096,11 +7043,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: aea9d3bd5e19f2a90fc3a39919974a5f3613a159
+  fingerprint: 538ace9075bc08320fd46e69fe74807d5b319ba1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.6.2
-    minimumUnityVersion: 2022.3.20f1
+    minimumPackageVersion: 6.4.0
+    minimumUnityVersion: 6000.4
   compliance:
     status: 0
     violation:
@@ -7215,12 +7162,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.burst@1.8.27
+- packageId: com.unity.burst@1.8.28
   testable: 0
   isDirectDependency: 0
-  version: 1.8.27
+  version: 1.8.28
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.burst@973857688024
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.burst@07790c2d06d9
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -7377,9 +7324,10 @@ m_ResolvedPackages:
     - 1.8.25
     - 1.8.26
     - 1.8.27
+    - 1.8.28
     compatible:
-    - 1.8.27
-    recommended: 1.8.27
+    - 1.8.28
+    recommended: 1.8.28
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -7407,16 +7355,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639014373111530000
+  datePublishedTicks: 639052730336850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: eaf781d05ea047ecc656c7ff7ccfd01e75e12e51
+    revision: c95bc6caa3b1fff43bc88047ff7da12fb4899bcc
     path: 
   unityLifecycle:
-    version: 1.8.27
+    version: 1.8.28
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7427,11 +7375,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n### Removed\n\n### Changed\n- Changed
-    minimum Editor version to 2022.3.\n\n### Fixed\n- Fixed Burst runtime Mac binaries
-    not being signed.\n- Fixed a bug where `Span<T>.Fill` used with spans of smaller-than-int
-    integer types would cause out-of-bounds writes (leading to data corruption and
-    segfaults)\n\n### Known Issues\n\n### Purpose"}'
+  upmReserved: '{"changelog":"### Added\n\n### Removed\n\n### Changed\n\n### Fixed\n-
+    User-reported copy-paste error `v128` -> `v256` in `v256` constructor description.\n-
+    User-reported typo in user manual, `paraeters` -> `parameters`.\n- Fixed that
+    Burst would miscompile arithmetic under very specific circumstances\n- Fixed
+    that conditionally formatted strings passed to a `[BurstDiscard]`''ed method
+    could lead to stack-overflow\n- Fixed that assert methods supported by Burst
+    wouldn''t throw the correct type\n- Fixed a crash that could happen when calling
+    `[DllImport(\"__Internal\")]` methods that have pointers in their signature\n\n###
+    Known Issues\n\n### Purpose"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -7445,10 +7397,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 973857688024e0c6019b60f7a3b403e8e467c4d0
+  fingerprint: 07790c2d06d99e35fe39459bd582a965d07700c4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.27
+    minimumPackageVersion: 1.8.28
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -7634,9 +7586,13 @@ m_ResolvedPackages:
     - 3.0.3
     - 3.1.0
     - 3.2.0
+    - 3.2.1
+    - 3.3.0
     compatible:
     - 3.2.0
-    recommended: 3.2.0
+    - 3.2.1
+    - 3.3.0
+    recommended: 3.2.1
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -7715,4 +7671,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 691aaf43edb3f61835dfad6b811ff5fbfae32e11
+m_BuiltInPackagesHash: 7e4e8cf129ac931a363ffef6d146cb58834a2d0c
