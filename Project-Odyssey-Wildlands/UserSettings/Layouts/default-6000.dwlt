@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Sprites
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands
   m_LockTracker:
@@ -613,13 +613,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 50156
+    - m_Data: 50456
     m_LastClickedID:
-      m_Data: 50156
+      m_Data: 50456
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 50156
-    - m_Data: 50450
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -768,7 +767,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectEntityId:
     m_Data: 0
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 266
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -821,7 +820,6 @@ MonoBehaviour:
         m_Data: 50054
       m_ExpandedIDs:
       - m_Data: -1342
-      - m_Data: 50054
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
