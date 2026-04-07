@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639097267288676132
-    m_Hash: 2433688803
+      ticks: 639111919957699577
+    m_Hash: 681257394
   m_LockFileStatus:
     m_FilePath: C:/Users/mncoo/Documents/Github/Project-Odyssey-Wildlands/Project-Odyssey-Wildlands/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639097267852832450
-    m_Hash: 3689602929
+      ticks: 639111919957789757
+    m_Hash: 2868552314
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1565,149 +1565,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.39
-  testable: 0
-  isDirectDependency: 1
-  version: 3.0.39
-  source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ide.rider@4504839d03f7
-  assetPath: Packages/com.unity.ide.rider
-  name: com.unity.ide.rider
-  displayName: JetBrains Rider Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The JetBrains Rider Editor package provides an integration for using
-    the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
-    .csproj files for code completion and auto-discovery of installations.
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.6
-    - 1.0.8
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2-preview
-    - 1.1.2-preview.2
-    - 1.1.3-preview.1
-    - 1.1.4-preview
-    - 1.1.4
-    - 1.2.0-preview
-    - 1.2.1
-    - 2.0.0-preview
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.5
-    - 2.0.7
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.9
-    - 3.0.10
-    - 3.0.12
-    - 3.0.13
-    - 3.0.14
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
-    - 3.0.20
-    - 3.0.21
-    - 3.0.22
-    - 3.0.24
-    - 3.0.25
-    - 3.0.26
-    - 3.0.27
-    - 3.0.28
-    - 3.0.31
-    - 3.0.34
-    - 3.0.35
-    - 3.0.36
-    - 3.0.37
-    - 3.0.38
-    - 3.0.39
-    compatible:
-    - 3.0.39
-    recommended: 3.0.39
-    deprecated:
-    - 3.0.37
-  dependencies:
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  resolvedDependencies:
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 639045875071620000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
-    path: 
-  unityLifecycle:
-    version: 3.0.39
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
-    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.0.39
-    minimumUnityVersion: 2021.3
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.visualstudio@2.0.27
   testable: 0
   isDirectDependency: 1
@@ -2022,113 +1879,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.multiplayer.center@1.0.1
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.1
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
-  assetPath: Packages/com.unity.multiplayer.center
-  name: com.unity.multiplayer.center
-  displayName: Multiplayer Center
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The multiplayer center provides a starting point to create multiplayer
-    games. It will recommend specific packages and enable you to easily access integrations,
-    samples and documentation.
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    compatible:
-    - 1.0.1
-    recommended: 1.0.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  keywords:
-  - Multiplayer
-  - Netcode
-  - Services
-  - Tools
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.1
-    minimumUnityVersion: 6000.0
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.render-pipelines.universal@17.4.0
   testable: 0
   isDirectDependency: 1
@@ -2263,113 +2013,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.test-framework@1.6.0
+- packageId: com.unity.timeline@1.8.12
   testable: 0
   isDirectDependency: 1
-  version: 1.6.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.test-framework@629486125cfc
-  assetPath: Packages/com.unity.test-framework
-  name: com.unity.test-framework
-  displayName: Test Framework
-  author:
-    name: 
-    email: 
-    url: 
-  category: Unity Test Framework
-  type: 
-  description: Test framework for running Edit mode and Play mode tests in Unity.
-  errors: []
-  versions:
-    all:
-    - 1.6.0
-    compatible:
-    - 1.6.0
-    recommended: 1.6.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.ext.nunit
-    version: 2.0.3
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - Test
-  - TestFramework
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.6.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 629486125cfc5c2ac0333cc42b9687f02a23b75f
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.6.0
-    minimumUnityVersion: 6000.0.44f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.timeline@1.8.11
-  testable: 0
-  isDirectDependency: 1
-  version: 1.8.11
+  version: 1.8.12
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.timeline@bfd27f8016ff
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2520,13 +2169,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639076501551120000
+  datePublishedTicks: 639096350260850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: cdac322c9875133dd1579842f73adb7f463c6d0b
+    revision: ebb3d9b85ccc1dba717b152782ebb2c5251ac79e
     path: 
   unityLifecycle:
     version: 1.8.11
@@ -2540,9 +2189,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix performance regression in Custom
-    Clip PlayableAsset Inspector where animated parameters caused Timeline Window
-    to refresh when scrubbing or playing the Timeline (UUM-133569)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix double clicking on TimelineAsset
+    or console log throwing an error on 6000.0 (UUM-136605)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -2556,7 +2204,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: bfd27f8016ffda6a22579ffc468432a96b2cc5b6
+  fingerprint: 8cd8509afae5d2655af4657a214db1b563c28425
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.11
@@ -2668,149 +2316,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.10
-  testable: 0
-  isDirectDependency: 1
-  version: 1.9.10
-  source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.visualscripting@eb6004dcc707
-  assetPath: Packages/com.unity.visualscripting
-  name: com.unity.visualscripting
-  displayName: Visual Scripting
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: tool
-  description: 'Visual scripting is a workflow that uses visual, node-based graphs
-    to design behaviors rather than write lines of C# script.
-
-
-    Enabling artists,
-    designers and programmers alike, visual scripting can be used to design final
-    logic, quickly create prototypes, iterate on gameplay and create custom nodes
-    to help streamline collaboration.
-
-
-    Visual scripting is compatible with third-party
-    APIs, including most packages, assets and custom libraries.'
-  errors: []
-  versions:
-    all:
-    - 1.5.0
-    - 1.5.1-pre.3
-    - 1.5.1-pre.5
-    - 1.5.1
-    - 1.5.2
-    - 1.6.0-pre.3
-    - 1.6.0
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    - 1.7.7
-    - 1.7.8
-    - 1.8.0-pre.1
-    - 1.8.0
-    - 1.9.0
-    - 1.9.1
-    - 1.9.2
-    - 1.9.4
-    - 1.9.5
-    - 1.9.6
-    - 1.9.7
-    - 1.9.8
-    - 1.9.9
-    - 1.9.10
-    - 1.9.11
-    compatible:
-    - 1.9.10
-    - 1.9.11
-    recommended: 1.9.11
-    deprecated:
-    - 1.8.0-pre.1
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 639074549415510000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 769bd2a46b6624d2f0f3d229d5885a57b3c4960e
-    path: 
-  unityLifecycle:
-    version: 1.9.10
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Changed\n- Replaced internal use of InstanceIDs
-    with the new EntityId (Unity 6.4+).\n- Migrate Mono APIs to CoreCLR-compatible
-    APIs available in Unity 6000.5 and above.\n### Fixed\n- Fixed loading icon showing
-    on the Visual Scripting components in the inspector during play mode when the
-    editor is compiling."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: eb6004dcc7073b805dbf1ea9006b7a915978a186
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.9.10
-    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -3016,93 +2521,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.androidjni@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.androidjni
-  assetPath: Packages/com.unity.modules.androidjni
-  name: com.unity.modules.androidjni
-  displayName: Android JNI
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
   errors: []
   versions:
     all:
@@ -3438,98 +2856,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.cloth@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.cloth
-  assetPath: Packages/com.unity.modules.cloth
-  name: com.unity.modules.cloth
-  displayName: Cloth
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The Cloth module implements cloth physics simulation through the
-    Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3802,94 +3128,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.jsonserialize@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.jsonserialize
-  assetPath: Packages/com.unity.modules.jsonserialize
-  name: com.unity.modules.jsonserialize
-  displayName: JSONSerialize
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The JSONSerialize module provides the JsonUtility class which lets
-    you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3907,94 +3145,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.physics@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.physics
-  assetPath: Packages/com.unity.modules.physics
-  name: com.unity.modules.physics
-  displayName: Physics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The Physics module implements 3D physics in Unity. Scripting API:
-    https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
   errors: []
   versions:
     all:
@@ -4184,190 +3334,6 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.terrain@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.terrain
-  assetPath: Packages/com.unity.modules.terrain
-  name: com.unity.modules.terrain
-  displayName: Terrain
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The Terrain module implements Unity''s Terrain rendering engine available
-    through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.terrainphysics@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.terrainphysics
-  assetPath: Packages/com.unity.modules.terrainphysics
-  name: com.unity.modules.terrainphysics
-  displayName: Terrain Physics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The TerrainPhysics module connects the Terrain and Physics modules
-    by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
     version: 1.0.0
   keywords: []
   registry:
@@ -4900,494 +3866,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.unitywebrequest@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequest
-  assetPath: Packages/com.unity.modules.unitywebrequest
-  name: com.unity.modules.unitywebrequest
-  displayName: Unity Web Request
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequest module lets you communicate with http services.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
-  assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
-  name: com.unity.modules.unitywebrequestassetbundle
-  displayName: Unity Web Request Asset Bundle
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
-    class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.assetbundle
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.assetbundle
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.unitywebrequestaudio@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestaudio
-  assetPath: Packages/com.unity.modules.unitywebrequestaudio
-  name: com.unity.modules.unitywebrequestaudio
-  displayName: Unity Web Request Audio
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
-    class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.unitywebrequesttexture@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequesttexture
-  assetPath: Packages/com.unity.modules.unitywebrequesttexture
-  name: com.unity.modules.unitywebrequesttexture
-  displayName: Unity Web Request Texture
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
-    class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.unitywebrequestwww@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequestwww
-  assetPath: Packages/com.unity.modules.unitywebrequestwww
-  name: com.unity.modules.unitywebrequestwww
-  displayName: Unity Web Request WWW
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
-    communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequestassetbundle
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequestaudio
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  - name: com.unity.modules.assetbundle
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequestassetbundle
-    version: 1.0.0
-  - name: com.unity.modules.assetbundle
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequestaudio
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.vectorgraphics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -5433,98 +3911,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.vehicles@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.vehicles
-  assetPath: Packages/com.unity.modules.vehicles
-  name: com.unity.modules.vehicles
-  displayName: Vehicles
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The Vehicles module implements vehicle physics simulation through
-    the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
     version: 1.0.0
   keywords: []
   registry:
@@ -5687,109 +4073,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.vr@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.vr
-  assetPath: Packages/com.unity.modules.vr
-  name: com.unity.modules.vr
-  displayName: VR
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The VR module implements support for virtual reality devices in Unity.
-    (This module is obsolete, please use UnityEngine.XRModule instead) Scripting
-    API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -5878,23 +4161,23 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.xr@1.0.0
+- packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
-  isDirectDependency: 1
+  isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.xr
-  assetPath: Packages/com.unity.modules.xr
-  name: com.unity.modules.xr
-  displayName: XR
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.unitywebrequest
+  assetPath: Packages/com.unity.modules.unitywebrequest
+  name: com.unity.modules.unitywebrequest
+  displayName: Unity Web Request
   author:
     name: 
     email: 
     url: 
   category: 
   type: module
-  description: 'The XR module contains the VR and AR related platform support functionality.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
+  description: 'The UnityWebRequest module lets you communicate with http services.
+    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
   errors: []
   versions:
     all:
@@ -5903,20 +4186,272 @@ m_ResolvedPackages:
     - 1.0.0
     recommended: 1.0.0
     deprecated: []
-  dependencies:
-  - name: com.unity.modules.physics
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.jsonserialize@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.jsonserialize
+  assetPath: Packages/com.unity.modules.jsonserialize
+  name: com.unity.modules.jsonserialize
+  displayName: JSONSerialize
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The JSONSerialize module provides the JsonUtility class which lets
+    you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
     version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.hierarchycore
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.physics@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.physics
+  assetPath: Packages/com.unity.modules.physics
+  name: com.unity.modules.physics
+  displayName: Physics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Physics module implements 3D physics in Unity. Scripting API:
+    https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
   keywords: []
   registry:
     id: main
@@ -6064,185 +4599,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.hierarchycore@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.hierarchycore
-  assetPath: Packages/com.unity.modules.hierarchycore
-  name: com.unity.modules.hierarchycore
-  displayName: Hierarchy Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'Module that contains a high-performance hierarchy container. Scripting
-    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 0
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.ext.nunit@2.0.5
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.5
-  source: 2
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
-  assetPath: Packages/com.unity.ext.nunit
-  name: com.unity.ext.nunit
-  displayName: Custom NUnit
-  author:
-    name: 
-    email: 
-    url: 
-  category: Libraries
-  type: 
-  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
-    version 3.5 and works with all platforms, il2cpp and Mono AOT.
-  errors: []
-  versions:
-    all:
-    - 2.0.5
-    compatible:
-    - 2.0.5
-    recommended: 2.0.5
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - nunit
-  - unittest
-  - test
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 2.0.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 0
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2019.4
   compliance:
     status: 0
     violation:
@@ -6610,6 +4966,107 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.4.0
     minimumUnityVersion: 6000.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework@1.6.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.6.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.test-framework@629486125cfc
+  assetPath: Packages/com.unity.test-framework
+  name: com.unity.test-framework
+  displayName: Test Framework
+  author:
+    name: 
+    email: 
+    url: 
+  category: Unity Test Framework
+  type: 
+  description: Test framework for running Edit mode and Play mode tests in Unity.
+  errors: []
+  versions:
+    all:
+    - 1.6.0
+    compatible:
+    - 1.6.0
+    recommended: 1.6.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - Test
+  - TestFramework
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.6.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 629486125cfc5c2ac0333cc42b9687f02a23b75f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.6.0
+    minimumUnityVersion: 6000.0.44f1
   compliance:
     status: 0
     violation:
@@ -7325,9 +5782,11 @@ m_ResolvedPackages:
     - 1.8.26
     - 1.8.27
     - 1.8.28
+    - 1.8.29
     compatible:
     - 1.8.28
-    recommended: 1.8.28
+    - 1.8.29
+    recommended: 1.8.29
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -7402,6 +5861,185 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.28
     minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.terrain@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.modules.terrain
+  assetPath: Packages/com.unity.modules.terrain
+  name: com.unity.modules.terrain
+  displayName: Terrain
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Terrain module implements Unity''s Terrain rendering engine available
+    through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ext.nunit@2.0.5
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.5
+  source: 2
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  assetPath: Packages/com.unity.ext.nunit
+  name: com.unity.ext.nunit
+  displayName: Custom NUnit
+  author:
+    name: 
+    email: 
+    url: 
+  category: Libraries
+  type: 
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
+  errors: []
+  versions:
+    all:
+    - 2.0.5
+    compatible:
+    - 2.0.5
+    recommended: 2.0.5
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - nunit
+  - unittest
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 2.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.5
+    minimumUnityVersion: 2019.4
   compliance:
     status: 0
     violation:
@@ -7588,10 +6226,12 @@ m_ResolvedPackages:
     - 3.2.0
     - 3.2.1
     - 3.3.0
+    - 3.4.0
     compatible:
     - 3.2.0
     - 3.2.1
     - 3.3.0
+    - 3.4.0
     recommended: 3.2.1
     deprecated: []
   dependencies:
