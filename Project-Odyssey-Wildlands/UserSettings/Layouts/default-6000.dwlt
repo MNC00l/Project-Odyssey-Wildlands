@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -613,12 +613,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 45382
+    - m_Data: 45386
     m_LastClickedID:
-      m_Data: 45382
+      m_Data: 45386
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45070
+    - m_Data: 45084
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -654,7 +654,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 45070
+    - m_Data: 45084
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -683,9 +683,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 44924
+    - m_Data: 44930
     m_LastClickedEntityId:
-      m_Data: 44924
+      m_Data: 44930
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -812,12 +812,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 44924
+      - m_Data: 44930
       m_LastClickedID:
-        m_Data: 44924
+        m_Data: 44930
       m_ExpandedIDs:
       - m_Data: -1340
-      - m_Data: 44966
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1540,7 +1539,7 @@ MonoBehaviour:
       height: 864
     m_MinimalGUI: 1
   m_defaultScale: 0.4363426
-  m_LastWindowPixelSize: {x: 1100.5, y: 497.5}
+  m_LastWindowPixelSize: {x: 880.4, y: 398}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
