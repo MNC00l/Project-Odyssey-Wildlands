@@ -3,7 +3,7 @@
     "name": "PlayerControls",
     "maps": [
         {
-            "name": "PlayerControls",
+            "name": "PlayerMoveset",
             "id": "f27349f3-9096-41ba-8aba-8e7a71022170",
             "actions": [
                 {
@@ -73,5 +73,17 @@
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "Desktop Control Scheme",
+            "bindingGroup": "Desktop Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }

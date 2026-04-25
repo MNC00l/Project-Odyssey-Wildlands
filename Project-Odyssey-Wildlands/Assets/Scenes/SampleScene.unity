@@ -378,8 +378,8 @@ MonoBehaviour:
     m_ActionId: d854af53-8d4c-4de2-919b-c32a06bfb1fe
     m_ActionName: 'PlayerControls/Action[/Keyboard/leftArrow,/Keyboard/rightArrow]'
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerControls
+  m_DefaultControlScheme: Desktop Control Scheme
+  m_DefaultActionMap: PlayerMoveset
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!212 &363147468
@@ -571,7 +571,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 0
+  orthographic size: 4.32
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
