@@ -9,33 +9,33 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.4.0f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.2d.animation@14.0.3": {
+    "com.unity.2d.animation@14.0.4": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5",
-      "fingerprint": "a6f2f1d22eb58f97dd6f3c2155404815c5a2bf26",
+      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.animation@011d329ac58b",
+      "fingerprint": "011d329ac58b710ab4c38370abbd7dd6be907d84",
       "editorCompatibility": "6000.4.0a4",
-      "version": "14.0.3",
+      "version": "14.0.4",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.aseprite@4.0.1": {
+    "com.unity.2d.aseprite@4.0.2": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.aseprite@151b68d46c40",
-      "fingerprint": "151b68d46c4040639cc917c030eec74270029275",
+      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.aseprite@ccedfadacc51",
+      "fingerprint": "ccedfadacc513a77b93381158672a64633139c1b",
       "editorCompatibility": "6000.4.0a4",
-      "version": "4.0.1",
+      "version": "4.0.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.psdimporter@13.0.2": {
+    "com.unity.2d.psdimporter@13.0.3": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.psdimporter@11a0e04e0561",
-      "fingerprint": "11a0e04e0561e872deef54a772d616a87d9a30bd",
+      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.psdimporter@e58d0a2c1d48",
+      "fingerprint": "e58d0a2c1d48386e67e6211bb716b9765553f9db",
       "editorCompatibility": "6000.4.0a4",
-      "version": "13.0.2",
+      "version": "13.0.3",
       "source": "registry",
       "testable": false
     },
@@ -399,16 +399,6 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.common@13.0.1": {
-      "name": "com.unity.2d.common",
-      "displayName": "2D Common",
-      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.common@49d8bea2bff3",
-      "fingerprint": "49d8bea2bff38bcb90716a3a68cef631b6087562",
-      "editorCompatibility": "6000.4.0a4",
-      "version": "13.0.1",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.mathematics@1.3.3": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
@@ -416,6 +406,16 @@
       "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.common@13.0.2": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "C:\\Users\\mncoo\\Documents\\Github\\Project-Odyssey-Wildlands\\Project-Odyssey-Wildlands\\Library\\PackageCache\\com.unity.2d.common@edfe77495b67",
+      "fingerprint": "edfe77495b67b509cc4b3b12a56f26d18c293003",
+      "editorCompatibility": "6000.4.0a4",
+      "version": "13.0.2",
       "source": "registry",
       "testable": false
     },

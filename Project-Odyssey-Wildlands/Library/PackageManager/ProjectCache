@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639123777191260385
-    m_Hash: 3885020481
+      ticks: 639134024058413723
+    m_Hash: 1573360056
   m_LockFileStatus:
     m_FilePath: C:/Users/mncoo/Documents/Github/Project-Odyssey-Wildlands/Project-Odyssey-Wildlands/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639123777191329484
-    m_Hash: 3157111176
+      ticks: 639134024058489192
+    m_Hash: 3656091290
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/mncoo/Documents/Github/Project-Odyssey-Wildlands/Project-Odyssey-Wildlands/Packages
 m_EditorVersion: 6000.4.0f1 (8cf496087c8f)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@14.0.3
+- packageId: com.unity.2d.animation@14.0.4
   testable: 0
   isDirectDependency: 1
-  version: 14.0.3
+  version: 14.0.4
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.animation@a6f2f1d22eb5
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.animation@011d329ac58b
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -193,17 +193,19 @@ m_ResolvedPackages:
     - 14.0.1
     - 14.0.2
     - 14.0.3
+    - 14.0.4
     - 15.0.0
     - 15.0.1
     - 15.0.2
     - 15.0.3
     compatible:
     - 14.0.3
-    recommended: 14.0.3
+    - 14.0.4
+    recommended: 14.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -214,7 +216,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.burst
     version: 1.8.28
   - name: com.unity.mathematics
@@ -265,13 +267,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639076743473670000
+  datePublishedTicks: 639126009758980000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@14.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
+    revision: 79d2a2b801ba549ba6814a940752fdd024531500
     path: 
   unityLifecycle:
     version: 14.0.3
@@ -285,25 +287,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Disable \"Delete Selected Labels\" menu
-    when nothing is selected in SpriteLibraryEditor (DANB-1201)\n- Fix SpriteSkin
-    BoundsMode assertion failures. (DANB-1181)\n- Refresh sprite library editor when
-    deleting asset. (DANB-1232)\n- Fix exception occurs when changing SpriteSkin''s
-    bounds mode after deleting bones in play mode. (DANB-1224)\n- Fix SpriteSkin
-    bone bounds update timing. (DANB-1180)\n- Fix sprite disappearing on undo by
-    resetting bone transform index in DeactivateSkinning. (DANB-1238)\n- Fix \"IKGizmos:
-    Mismatching number of solvers\" errors when loading invalid prefabs (UUM-131322,
-    DANB-1254)\n- Fix unused separation line is used in the Context Menu of the Sprite
-    Library Editor Window (DANB-1226)\n- Fix transform index corruption caused by
-    missing dirty flag update after array compaction. (UUM-131697)\n- Reduce memory
-    usage and the workload during SpriteSkin initialization. (UUM-131270)\n- Fix
-    the ? button in the IKManager2D inspector points to an Invalid link. (UUM-131299)\n-
-    Fix the issue that the internal class CullingManager is available in AddComponent.
-    (UUM-131877)\n- Fix the missing documentation link of CCD Solver 2D Component.
-    (UUM-131875)\n- Fix the missing documentation link of Fabrik Solver 2D Component.
-    (UUM-131879)\n- Fix the missing documentation link of Limb Solver 2D Component.
-    (UUM-131891)\n- Do not show Sprite Library Editor''s save confirmation when applying
-    from the Inspector; Editor is reset from disk like when selection changes. (DANB-1090)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fix label selection reset when clearing
+    filter in Sprite Library Editor. (UUM-133437)\n- Uses readable \"Sprite Renderer\"
+    in the help box of Sprite Skin. (UUM-131888)\n- Fix \"Save Changes Failed - Index
+    was out of range\" when closing a tab with Discard in Sprite Library Editor while
+    labels were selected in Grid view. (UUM-134472)\n- Fix UI layout in 2D Animation
+    Asset Upgrader when the window is docked. (UUM-134464)\n- Fixed an issue where
+    SpriteSkin without assigned bones would cause the sprite to disappear or become
+    unselectable in the editor. (UUM-132963)\n- Fix sprite bones deformed when enabling/disabling
+    GameObjects in the Player by running RemoveTransformsIfNull after RemoveTransformsByIds
+    so cached transform indices stay valid. (UUM-134629)\n- Fix draw call fluctuation
+    and sprite flicker by avoiding AABB reset for culled Sprite Skins; deformable
+    buffer release is now handled by the batch API. (UUM-132924)\n- Align foldout
+    name and triangle in the Category tab in the Sprite Library Editor. (UUM-134471)\n-
+    Fix \"To start creating categories..\" text overlapping Categories title and
+    + button when Sprite Library Editor is docked and resized. (UUM-134468)\n- Fix
+    Sprite Swap overlay text overlapping buttons when docked in dynamic panel and
+    resized. (UUM-130909)\n- Fix Sprite Resolver component shows built-in Sprite
+    Asset icon instead of the actual Sprite (UUM-132705)\n- Fix sprite display glitch
+    when enabling/disabling SpriteSkin by clearing dataIndex on disable so CopyToSpriteSkinData
+    does not overwrite another slot with a stale index. (UUM-137003)\n\n### Changed\n-
+    Align online documentation URLs: package docs to @14.0; Unity Manual/Script Reference
+    links to Unity 6000.4."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -317,7 +322,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: a6f2f1d22eb58f97dd6f3c2155404815c5a2bf26
+  fingerprint: 011d329ac58b710ab4c38370abbd7dd6be907d84
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 14.0.3
@@ -328,12 +333,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.aseprite@4.0.1
+- packageId: com.unity.2d.aseprite@4.0.2
   testable: 0
   isDirectDependency: 1
-  version: 4.0.1
+  version: 4.0.2
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.aseprite@151b68d46c40
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.aseprite@ccedfadacc51
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -379,16 +384,18 @@ m_ResolvedPackages:
     - 3.0.1
     - 4.0.0
     - 4.0.1
+    - 4.0.2
     - 5.0.0
     - 5.0.1
     - 5.0.2
     compatible:
     - 4.0.1
-    recommended: 4.0.1
+    - 4.0.2
+    recommended: 4.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -399,7 +406,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.burst
     version: 1.8.28
   - name: com.unity.mathematics
@@ -459,13 +466,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639076743489250000
+  datePublishedTicks: 639126009736110000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@4.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
+    revision: 79d2a2b801ba549ba6814a940752fdd024531500
     path: 
   unityLifecycle:
     version: 4.0.1
@@ -479,12 +486,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Reduced the size of the buttons in the
-    Export asset window. (UUM-132863)\n- Fixed an issue where the editor would display
-    errors when reverting changes to the Import Mode in the inspector. (UUM-132892)\n-
-    Fixed an issue where changes to the Pivot Alignment in the inspector could not
-    be reverted. (UUM-132868)\n- Fixed an issue where new lines and white spaces
-    would create unusable animation events. (UUM-133339)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where you could not change
+    an Aseprite file containing tile data to AnimatedSprite import mode. (UUM-135150)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -498,7 +501,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 151b68d46c4040639cc917c030eec74270029275
+  fingerprint: ccedfadacc513a77b93381158672a64633139c1b
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 4.0.1
@@ -509,12 +512,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.psdimporter@13.0.2
+- packageId: com.unity.2d.psdimporter@13.0.3
   testable: 0
   isDirectDependency: 1
-  version: 13.0.2
+  version: 13.0.3
   source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.psdimporter@11a0e04e0561
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.psdimporter@e58d0a2c1d48
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -626,23 +629,25 @@ m_ResolvedPackages:
     - 13.0.0
     - 13.0.1
     - 13.0.2
+    - 13.0.3
     - 14.0.0
     - 14.0.1
     - 14.0.2
     compatible:
     - 13.0.2
-    recommended: 13.0.2
+    - 13.0.3
+    recommended: 13.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.burst
     version: 1.8.28
   - name: com.unity.mathematics
@@ -700,13 +705,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639076743518490000
+  datePublishedTicks: 639126009718680000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 09156026ac819d901f92f956a6317aacbae1ba9e
+    revision: 79d2a2b801ba549ba6814a940752fdd024531500
     path: 
   unityLifecycle:
     version: 13.0.2
@@ -720,8 +725,10 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Remove the analytics features in 2D
-    Animation and PSDImporter"}'
+  upmReserved: '{"changelog":"### Fixed\n- Package Manager Samples section title
+    now displays \"PSD Importer\" consistently. (UUM-135396)\n\n### Changed\n- Align
+    online documentation URLs: package docs to @13.0; Unity Manual/Script Reference
+    links to Unity 6000.4."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -735,7 +742,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 11a0e04e0561e872deef54a772d616a87d9a30bd
+  fingerprint: e58d0a2c1d48386e67e6211bb716b9765553f9db
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 13.0.2
@@ -975,7 +982,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 13.0.1
+    version: 13.0.2
   - name: com.unity.burst
     version: 1.8.28
   - name: com.unity.mathematics
@@ -5448,216 +5455,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.common@13.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 13.0.1
-  source: 1
-  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.common@49d8bea2bff3
-  assetPath: Packages/com.unity.2d.common
-  name: com.unity.2d.common
-  displayName: 2D Common
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Common is a package that contains shared functionalities that are
-    used by most of the other 2D packages.
-  errors: []
-  versions:
-    all:
-    - 1.0.9-preview.1
-    - 1.0.9-preview.2
-    - 1.0.10-preview
-    - 1.0.11-preview.1
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.2.0-preview.1
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 3.0.0
-    - 3.0.1
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.6
-    - 6.0.7
-    - 6.0.8
-    - 6.1.0
-    - 7.0.0-pre.3
-    - 7.0.0-pre.4
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 8.0.0-pre.1
-    - 8.0.0-pre.2
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 8.0.4
-    - 8.1.0
-    - 8.1.1
-    - 9.0.0-pre.1
-    - 9.0.0-pre.2
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.0.5
-    - 9.0.6
-    - 9.0.7
-    - 9.1.0
-    - 9.1.1
-    - 10.0.0
-    - 11.0.0
-    - 11.0.1
-    - 12.0.0
-    - 12.0.1
-    - 12.0.2
-    - 13.0.0
-    - 13.0.1
-    - 14.0.0
-    compatible:
-    - 13.0.1
-    recommended: 13.0.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.8.4
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.4.3
-  - name: com.unity.mathematics
-    version: 1.1.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.28
-  - name: com.unity.mathematics
-    version: 1.3.3
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 6.4.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
-  - name: com.unity.test-framework
-    version: 1.6.0
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.test-framework.performance
-    version: 3.2.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638989665960540000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@13.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 69096ec8a10aa102448b07d1bfd3cbfa319ee313
-    path: 
-  unityLifecycle:
-    version: 13.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 0
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Added code support to fix warnings of
-    \"a shader without GPU deformation support\" occurs when switching from CPU to
-    GPU Skinning with a PSB skinned sprite (DANB-1079)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 49d8bea2bff38bcb90716a3a68cef631b6087562
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 13.0.1
-    minimumUnityVersion: 6000.4.0a4
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.mathematics@1.3.3
   testable: 0
   isDirectDependency: 0
@@ -5763,6 +5560,219 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.3.3
     minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.common@13.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 13.0.2
+  source: 1
+  resolvedPath: C:\Users\mncoo\Documents\Github\Project-Odyssey-Wildlands\Project-Odyssey-Wildlands\Library\PackageCache\com.unity.2d.common@edfe77495b67
+  assetPath: Packages/com.unity.2d.common
+  name: com.unity.2d.common
+  displayName: 2D Common
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Common is a package that contains shared functionalities that are
+    used by most of the other 2D packages.
+  errors: []
+  versions:
+    all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 6.0.8
+    - 6.1.0
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.1.0
+    - 8.1.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.0.5
+    - 9.0.6
+    - 9.0.7
+    - 9.1.0
+    - 9.1.1
+    - 10.0.0
+    - 11.0.0
+    - 11.0.1
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 13.0.0
+    - 13.0.1
+    - 13.0.2
+    - 14.0.0
+    compatible:
+    - 13.0.1
+    - 13.0.2
+    recommended: 13.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.mathematics
+    version: 1.1.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.28
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 6.4.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639126009705190000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@13.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 79d2a2b801ba549ba6814a940752fdd024531500
+    path: 
+  unityLifecycle:
+    version: 13.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix the issue where the Scene and Sprite
+    Editor views fail to update correctly when an edge is deleted to split geometry.
+    (UUM-134656)\n\n### Added\n- Allow retrieving Sprite Atlas asset GUID as SpriteID
+    can be duplicated."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: edfe77495b67b509cc4b3b12a56f26d18c293003
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 13.0.1
+    minimumUnityVersion: 6000.4.0a4
   compliance:
     status: 0
     violation:
@@ -6702,12 +6712,14 @@ m_ResolvedPackages:
     - 3.3.0
     - 3.4.0
     - 3.4.1
+    - 3.4.2
     compatible:
     - 3.2.0
     - 3.2.1
     - 3.3.0
     - 3.4.0
     - 3.4.1
+    - 3.4.2
     recommended: 3.2.1
     deprecated: []
   dependencies:

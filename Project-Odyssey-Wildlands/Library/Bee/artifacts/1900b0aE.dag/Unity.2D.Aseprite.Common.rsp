@@ -424,7 +424,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Library/PackageCache/com.unity.2d.aseprite@151b68d46c40/Editor/Common/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.2d.aseprite@ccedfadacc51/Editor/Common/AssemblyInfo.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
